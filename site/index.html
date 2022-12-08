@@ -1,37 +1,38 @@
 <!DOCTYPE html>
+<html>
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>NGINX on Railway</title>
-    <meta name="description" content="Choo Choo!" />
+<head>
+  <title>intro</title>
+  <link href="/css/style.css" rel="stylesheet">
+</head>
 
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<body>
+  <div class="banner">
+      <div class="navbar">
+      <img src="https://cdn.discordapp.com/attachments/989806892740124674/989830314379599902/20220624_152131.png" class="logo" id="logo" onclick="logo()">
+        
+        <ul>
+          <li> <a href="/index.html">Home</a> </li>
+          <li> <a href="webpages/aboutus.html">About Us</a> </li>
+          <li> <a href="webpages/joinus.html">Join Us</a> </li>
+          <li> <a href="webpages/terms.html">Term & service</a> </li>
+        </ul>
+                
+      </div>
+      
+      <div class="content">
+        <h1>Intro of sus dev </h1>
+        <p>Intro site of sus devs</p>
 
-    <link rel="stylesheet" href="/styles.css?v=1.0" />
-  </head>
+        <div>
+        <button type="button" id="github" onclick="git()">GitHub </button>
+        <button type="button">Discord</button>  
+          
+        </div>
+      </div> 
+  </div> 
+<script src="./javascript/script.js"></script>
+    
+</body>
 
-  <body>
-    <main>
-      <img
-        src="https://railway.app/brand/logo-light.svg"
-        alt="Railway logo"
-        class="logo"
-      />
-
-      <h1>NGINX on Railway</h1>
-
-      <p>
-        Choo Choo! This is an example of an NGINX static site running on
-        Railway.
-        <a
-          href="https://github.com/railwayapp/starters/tree/master/examples/nginx"
-          >View source</a
-        >.
-      </p>
-    </main>
-
-    <script src="/script.js"></script>
-  </body>
-</html>
+</html> 
